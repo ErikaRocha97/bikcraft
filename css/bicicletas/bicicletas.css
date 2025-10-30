@@ -1,6 +1,10 @@
 .bicicletas-bg {
   /* terceiro filho do elemento main */
-  background: var(--cor-11);
+  background-image: linear-gradient(
+    to right,
+    var(--cor-0) 30%,
+    var(--cor-11) 0%
+  );
 }
 
 .bicicletas {
@@ -83,6 +87,9 @@
     gap: 20px;
     padding-top: 40px;
     padding-bottom: 40px;
+  }
+  .bicicletas-bg {
+    background: var(--cor-11);
   }
 }
 
